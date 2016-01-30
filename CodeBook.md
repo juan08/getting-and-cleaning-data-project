@@ -1,18 +1,20 @@
 Codebook for wearable computing dataset
-Variables
+**Variables**
 
-subject                    1..2
-    Subject number
-                           1..30 .Unique identifier assigned to each subject
+**subject**                    1..2
+    *Subject number*
+                               1..30 .Unique identifier assigned to each subject
 
-label                      6..18
-    Acitivity label
+**label**                      6..18
+    *Acitivity label*
                            "WALKING"
                            "WALKING_UPSTAIRS"
                            "WALKING_DOWNSTAIRS"
                            "SITTING"
                            "STANDING"
                            "LAYING"
+
+**Variables**
 
 "Subject"
 "Activity"
