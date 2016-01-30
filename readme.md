@@ -1,7 +1,7 @@
 Getting and cleaning data
 For creating a tidy data set of wearable computing data originally from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-**Files in this repo**
+#Files in this repo
 
 README.md -- you are reading it right now
 CodeBook.md -- codebook describing variables, the data and transformations
@@ -49,12 +49,20 @@ select from senso_data  the variable that contain "mean", "std", then sotore in 
 
 Merge the "sensor_data_mean_and_std" and "activity_labels", the idea is to creat a data set with the corresponding activities labels. 
 After that, we set the variable names with the a descriptive name the following lines show us the tranformation perform in the run_analysis file.
-   *-Replace "t" by "Time"
-   *-Replace "f" by "Frequency"
-   *-Replace "Acc" by "Acceleration"
-   *-Remove "()"
-   *-Replace "Mag" by "Magnitud"
-   *-Replace "Acc" by "Acceleration"
-   *-Remove "-"
-   *-Replace "mean" by "Mean"
+   
+	- Replace "t" by "Time"
+
+ 	- Replace "f" by "Frequency"
+
+	- Replace "Acc" by "Acceleration"
+	
+	- Remove "()"
+
+	- Replace "Mag" by "Magnitud"
+
+	- Replace "Acc" by "Acceleration"
+
+	- Remove "-"
+
+	- Replace "mean" by "Mean"
    
